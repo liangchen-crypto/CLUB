@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ULCプロフェッショナルクラブ | グローバルビジネスの成長</title>
+    <meta name="description" content="グローバルビジネスのプロ向けに設計された成長重視のコースプログラムです。あなたの成長と視野の拡大への投資です。">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Language Selection Modal -->
+    <div id="entryLangModal" class="entry-modal" style="display: none;">
+        <div class="entry-modal-content">
+            <h2 style="font-size: 1.8rem; margin-bottom: 0.5rem; color: var(--primary-color); text-align: center;">Welcome / 欢迎</h2>
+            <p style="text-align: center; color: #64748b; margin-bottom: 1.5rem;">Please select your preferred language<br>请选择您的首选语言</p>
+            <div class="entry-lang-grid">
+                <a href="index.html" class="entry-lang-btn">English</a>
+                <a href="index-zh.html" class="entry-lang-btn">中文 (Chinese)</a>
+                <a href="index-ko.html" class="entry-lang-btn">한국어 (Korean)</a>
+                <a href="index-ja.html" class="entry-lang-btn">日本語 (Japanese)</a>
+                <a href="index-it.html" class="entry-lang-btn">Italiano (Italian)</a>
+                <a href="index-de.html" class="entry-lang-btn">Deutsch (German)</a>
+            </div>
+            <button id="closeEntryModal" class="btn btn-outline" style="margin-top: 1.5rem; width: 100%; padding: 0.8rem;">Continue</button>
+        </div>
+    </div>
+    <!-- Header Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-earth-asia"></i> ULC <span>PROFESSIONALS CLUB</span>
+            </a>
+            <ul class="nav-links" style="align-items: center;">
+                <li><a href="#advantages">コアの強み</a></li>
+                <li><a href="#details">コース詳細</a></li>
+                <li><a href="#target">対象者</a></li>
+                <li class="lang-selector-item">
+                    <div class="lang-selector">
+                        <button class="lang-btn"><i class="fa-solid fa-globe"></i> 中文 <i class="fa-solid fa-chevron-down" style="font-size: 0.8em; margin-left: 2px;"></i></button>
+                        <div class="lang-dropdown">
+                            <a href="index.html">English</a>
+                            <a href="index-zh.html">中文 (Chinese)</a>
+                            <a href="index-ko.html">한국어 (Korean)</a>
+                            <a href="index-ja.html">日本語 (Japanese)</a>
+                            <a href="index-it.html">Italiano (Italian)</a>
+                            <a href="index-de.html">Deutsch (German)</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="https://wa.me/6587327804" target="_blank" class="btn btn-primary" style="padding: 0.5rem 1.5rem">申し込む</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>ビジネスパーソンのための<span class="highlight-bg">成長型</span>・プログラム</h1>
+                <p style="font-size: 1.2rem; margin-top: 1.5rem; color: #e2e8f0;">単なる英語学習ではなく、シンガポールのリアルなビジネスや社交界に足を踏み入れるための成長機会です。</p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h4>3</h4>
+                        <p>ヶ月</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>20</h4>
+                        <p>回のセッション</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>100%</h4>
+                        <p>リアルなソーシャル統合</p>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 3rem;">
+                    <a href="#pricing" class="btn btn-primary">詳細と料金を確認</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Advantages -->
+    <section id="advantages" class="advantages">
+        <div class="container">
+            <h2>コアの強み</h2>
+            <p style="text-align: center; color: #64748b; max-width: 600px; margin: 0 auto;">教育と実践を組み合わせた独自のモデルで、グローバルビジネススキルを全面的に向上させます。</p>
+            
+            <div class="advantages-grid">
+                <!-- Card 1 -->
+                <div class="glass-card animate-on-scroll">
+                    <div class="adv-icon"><i class="fa-solid fa-comments"></i></div>
+                    <h3>没入型ビジネス環境</h3>
+                    <p>多国籍受講生とのインタラクションを通じ、実際の環境を体験します。(Immersive Practice)</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="glass-card animate-on-scroll" style="animation-delay: 0.1s;">
+                    <div class="adv-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3>結果重視のデリバリー</h3>
+                    <p>「毎授業のアウトプット」にこだわり、理論からのスムーズな移行を保証します。(Result-Oriented Delivery)</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="glass-card animate-on-scroll" style="animation-delay: 0.2s;">
+                    <div class="adv-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                    <h3>深いローカライズ解読</h3>
+                    <p>非ネイティブ向けにカスタマイズされ、シンガポールのルールを深く分解します。(Deep Local Integration)</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="glass-card animate-on-scroll" style="animation-delay: 0.3s;">
+                    <div class="adv-icon"><i class="fa-solid fa-network-wired"></i></div>
+                    <h3>異文化ディープネットワーキング</h3>
+                    <p>共感と信頼に基づく質の高いビジネスネットワークを構築します。(Cross-Cultural Connection)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Details & Outcomes -->
+    <section id="details" class="details-outcomes">
+        <div class="container split-container">
+            <div class="details-box animate-on-scroll">
+                <h2><span>コース詳細</span></h2>
+                <ul class="details-list">
+                    <li><i class="fa-regular fa-calendar-check"></i> <strong>開始日:</strong> 2026年4月21日 - 6月25日</li>
+                    <li><i class="fa-solid fa-clock"></i> <strong>頻度:</strong> 毎週火・木 (午後7:00 - 9:00)</li>
+                    <li><i class="fa-solid fa-book-open-reader"></i> <strong>総セッション数:</strong> 全20回</li>
+                    <li><i class="fa-solid fa-chalkboard-user"></i> <strong>指導スタイル:</strong> ディスカッション主体の教育、実際のシナリオとガイド付き対話。</li>
+                </ul>
+                <div style="margin-top: 2rem; padding: 1.5rem; background: white; border-radius: 10px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;"><i class="fa-solid fa-route"></i> 明確な3ヶ月の成長パス</h4>
+                    <p style="font-size: 0.9rem; color: #4b5563;">個人の成長デジタルプロファイル <i class="fa-solid fa-arrow-right" style="margin:0 5px; color:#cbd5e1;"></i> 実践ビジネスチャレンジ <i class="fa-solid fa-arrow-right" style="margin:0 5px; color:#cbd5e1;"></i> モジュール型スキルアウトプット <i class="fa-solid fa-arrow-right" style="margin:0 5px; color:#cbd5e1;"></i> エリート卒業キット</p>
+                </div>
+            </div>
+            
+            <div class="outcomes-content animate-on-scroll">
+                <h2 style="text-align: left;">主要な成果 <span>(Outcomes)</span></h2>
+                <p style="margin-bottom: 2rem; color: #64748b;">3ヶ月後、あなたは大きな変化を実現します。</p>
+                
+                <div class="outcomes-grid">
+                    <div class="outcome-item">
+                        <div class="outcome-icon"><i class="fa-solid fa-user-shield"></i></div>
+                        <h4>英語表現の再構築</h4>
+                        <p style="font-size: 0.85rem; color:#64748b; margin-top: 0.5rem;">心理的な壁を完全に克服し、「流暢な会話」へと転換します。(Confidence)</p>
+                    </div>
+                    <div class="outcome-item">
+                        <div class="outcome-icon"><i class="fa-solid fa-person-running"></i></div>
+                        <h4>アクションへの移行</h4>
+                        <p style="font-size: 0.85rem; color:#64748b; margin-top: 0.5rem;">価値の高い関係を継続的に維持する方法を学びます。(Action)</p>
+                    </div>
+                    <div class="outcome-item">
+                        <div class="outcome-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
+                        <h4>スムーズな統合</h4>
+                        <p style="font-size: 0.85rem; color:#64748b; margin-top: 0.5rem;">シンガポールでのコミュニケーションの基本をマスターします。(Integration)</p>
+                    </div>
+                    <div class="outcome-item">
+                        <div class="outcome-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+                        <h4>帰属感と共感</h4>
+                        <p style="font-size: 0.85rem; color:#64748b; margin-top: 0.5rem;">志を同じくするグローバルなコミュニティに参加します。(Belonging)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scenarios -->
+    <section id="target" class="scenarios">
+        <div class="container animate-on-scroll">
+            <h2>対象者は？</h2>
+            
+            <div class="scenario-tabs">
+                <button class="tab-btn active" onclick="openTab(event, 'basic')">5つの基本シナリオ</button>
+                <button class="tab-btn" onclick="openTab(event, 'advanced')">5つの高度シナリオ</button>
+            </div>
+            
+            <div id="basic" class="tab-content active">
+                <div class="scenario-list">
+                    <ul>
+                        <li><i class="fa-solid fa-check text-blue"></i> 会議での発言が難しく、意見を明確に表現できない。</li>
+                        <li><i class="fa-solid fa-check text-blue"></i> メールの書き方が専門的でなく、職場での印象に影響する。</li>
+                        <li><i class="fa-solid fa-check text-blue"></i> 電話でのコミュニケーションに自信がない。</li>
+                        <li><i class="fa-solid fa-check text-blue"></i> ソーシャルな集まりで自然に会話を始める方法がわからない。</li>
+                        <li><i class="fa-solid fa-check text-blue"></i> プレゼンや報告の表現が単調で、魅力に欠ける。</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="advanced" class="tab-content">
+                <div class="scenario-list">
+                    <ul>
+                        <li><i class="fa-solid fa-check" style="color:var(--secondary-color)"></i> 異文化コミュニケーションで誤解が生じやすい。</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--secondary-color)"></i> ビジネス交渉での表現力や説得力が不足している。</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--secondary-color)"></i> チームワークにおける協力とコミュニケーションの向上が必要。</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--secondary-color)"></i> ブランドのストーリーテリングと価値の伝達能力が弱い。</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--secondary-color)"></i> 公式なビジネスの場での対応が正確かつ適切でない。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beyond Classroom -->
+    <section class="beyond">
+        <div class="container animate-on-scroll">
+            <div style="max-width: 600px; background: rgba(255,255,255,0.85); backdrop-filter: blur(10px); padding: 3rem; border-radius: 20px;">
+                <h2 style="color: var(--primary-color); margin-bottom: 0.5rem;"><i class="fa-solid fa-leaf"></i> 教室を超えて</h2>
+                <p style="color: #4b5563; font-size: 1.1rem;">ビジネスコースに加え、毎月 <strong>2回の厳選されたイベント:</strong>：</p>
+                
+                <div class="beyond-features">
+                    <div class="beyond-feature">
+                        <i class="fa-solid fa-user-tie bf-icon"></i>
+                        <div>
+                            <h4 style="font-size: 1.1rem; color: var(--primary-color);">業界インサイト</h4>
+                            <p style="font-size: 0.9rem; color: #64748b;">現地の専門家が最新の業界インサイトを提供します。</p>
+                        </div>
+                    </div>
+                    <div class="beyond-feature">
+                        <i class="fa-solid fa-glass-cheers bf-icon"></i>
+                        <div>
+                            <h4 style="font-size: 1.1rem; color: var(--primary-color);">ビジネスネットワーキング</h4>
+                            <p style="font-size: 0.9rem; color: #64748b;">リラックスした雰囲気の中で、ビジネスパートナーと出会いましょう。</p>
+                        </div>
+                    </div>
+                    <div class="beyond-feature">
+                        <i class="fa-solid fa-city bf-icon"></i>
+                        <div>
+                            <h4 style="font-size: 1.1rem; color: var(--primary-color);">リアルシナリオ体験</h4>
+                            <p style="font-size: 0.9rem; color: #64748b;">実際のビジネスシーンに参加し、実践的なコミュニケーション能力を高めます。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing & CTA -->
+    <section id="pricing" class="pricing-cta">
+        <div class="container animate-on-scroll">
+            <h2>成長の旅を始める準備はできましたか？</h2>
+            <p>多様で国際的なビジネス環境の中で際立つ機会を掴みましょう。</p>
+            
+            <div class="price-box">
+                <p style="font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">コース料金</p>
+                <div class="price"><span class="currency">SGD</span> 3000</div>
+                <div class="duration">期間：3ヶ月（全20回）</div>
+            </div>
+            
+            <div style="margin-top: 2rem;">
+                <a href="https://wa.me/6587327804" target="_blank" class="btn btn-primary" style="font-size: 1.2rem; padding: 1.2rem 3rem;">相談 / 今すぐ参加する</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fa-solid fa-earth-asia"></i> ULC PROFESSIONALS
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <p style="margin-bottom: 1rem; color: #cbd5e1;">これはあなたの成長への投資であり、視野を広げる機会です</p>
+            <p>&copy; 2026 United Language Centre - Professionals Club. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

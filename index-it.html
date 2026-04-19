@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ULC Professionals Club | Crescita per Professionisti</title>
+    <meta name="description" content="Un programma di crescita per professionisti internazionali. Un investimento su te stesso e un'espansione dei tuoi orizzonti.">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Language Selection Modal -->
+    <div id="entryLangModal" class="entry-modal" style="display: none;">
+        <div class="entry-modal-content">
+            <h2 style="font-size: 1.8rem; margin-bottom: 0.5rem; color: var(--primary-color); text-align: center;">Welcome / 欢迎</h2>
+            <p style="text-align: center; color: #64748b; margin-bottom: 1.5rem;">Please select your preferred language<br>请选择您的首选语言</p>
+            <div class="entry-lang-grid">
+                <a href="index.html" class="entry-lang-btn">English</a>
+                <a href="index-zh.html" class="entry-lang-btn">中文 (Chinese)</a>
+                <a href="index-ko.html" class="entry-lang-btn">한국어 (Korean)</a>
+                <a href="index-ja.html" class="entry-lang-btn">日本語 (Japanese)</a>
+                <a href="index-it.html" class="entry-lang-btn">Italiano (Italian)</a>
+                <a href="index-de.html" class="entry-lang-btn">Deutsch (German)</a>
+            </div>
+            <button id="closeEntryModal" class="btn btn-outline" style="margin-top: 1.5rem; width: 100%; padding: 0.8rem;">Continue</button>
+        </div>
+    </div>
+    <!-- Header Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-earth-asia"></i> ULC <span>PROFESSIONALS CLUB</span>
+            </a>
+            <ul class="nav-links" style="align-items: center;">
+                <li><a href="#advantages">Vantaggi Principali</a></li>
+                <li><a href="#details">Dettagli del Corso</a></li>
+                <li><a href="#target">Destinatari</a></li>
+                <li class="lang-selector-item">
+                    <div class="lang-selector">
+                        <button class="lang-btn"><i class="fa-solid fa-globe"></i> 中文 <i class="fa-solid fa-chevron-down" style="font-size: 0.8em; margin-left: 2px;"></i></button>
+                        <div class="lang-dropdown">
+                            <a href="index.html">English</a>
+                            <a href="index-zh.html">中文 (Chinese)</a>
+                            <a href="index-ko.html">한국어 (Korean)</a>
+                            <a href="index-ja.html">日本語 (Japanese)</a>
+                            <a href="index-it.html">Italiano (Italian)</a>
+                            <a href="index-de.html">Deutsch (German)</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="https://wa.me/6587327804" target="_blank" class="btn btn-primary" style="padding: 0.5rem 1.5rem">Iscriviti Ora</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Un Programma per <span class="highlight-bg">Crescita</span> Professionisti Internazionali</h1>
+                <p style="font-size: 1.2rem; margin-top: 1.5rem; color: #e2e8f0;">Non solo inglese, ma un'opportunità per entrare nei veri circoli d'affari e sociali di Singapore.</p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h4>3</h4>
+                        <p>Mesi</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>20</h4>
+                        <p>Sessioni Premium</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>100%</h4>
+                        <p>Vera Integrazione Sociale</p>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 3rem;">
+                    <a href="#pricing" class="btn btn-primary">Scopri di più e Prezzi</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Advantages -->
+    <section id="advantages" class="advantages">
+        <div class="container">
+            <h2>Vantaggi Principali del Corso</h2>
+            <p style="text-align: center; color: #64748b; max-width: 600px; margin: 0 auto;">Un modello originale che unisce insegnamento e pratica per migliorare le tue competenze aziendali a livello globale.</p>
+            
+            <div class="advantages-grid">
+                <!-- Card 1 -->
+                <div class="glass-card animate-on-scroll">
+                    <div class="adv-icon"><i class="fa-solid fa-comments"></i></div>
+                    <h3>Ambiente Aziendale Immersivo</h3>
+                    <p>Simuliamo ambienti d'affari reali attraverso l'interazione con studenti internazionali. (Immersive Practice)</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="glass-card animate-on-scroll" style="animation-delay: 0.1s;">
+                    <div class="adv-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3>Orientamento ai Risultati</h3>
+                    <p>Garantiamo un output visibile in ogni lezione, per passare dalla teoria alla pratica senza sforzo. (Result-Oriented Delivery)</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="glass-card animate-on-scroll" style="animation-delay: 0.2s;">
+                    <div class="adv-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                    <h3>Profonda Integrazione Locale</h3>
+                    <p>Pensato per chi non è madrelingua per decodificare la cultura e superare le barriere a Singapore. (Deep Local Integration)</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="glass-card animate-on-scroll" style="animation-delay: 0.3s;">
+                    <div class="adv-icon"><i class="fa-solid fa-network-wired"></i></div>
+                    <h3>Connessione Interculturale</h3>
+                    <p>Costruisci reti commerciali di fiducia in un contesto interculturale. (Cross-Cultural Connection)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Details & Outcomes -->
+    <section id="details" class="details-outcomes">
+        <div class="container split-container">
+            <div class="details-box animate-on-scroll">
+                <h2><span>Dettagli del Corso</span></h2>
+                <ul class="details-list">
+                    <li><i class="fa-regular fa-calendar-check"></i> <strong>Data di Inizio:</strong> 21 Apr - 25 Giu 2026</li>
+                    <li><i class="fa-solid fa-clock"></i> <strong>Frequenza:</strong> Ogni Mar e Gio (19:00 - 21:00)</li>
+                    <li><i class="fa-solid fa-book-open-reader"></i> <strong>Totale Sessioni:</strong> 20 Sessioni</li>
+                    <li><i class="fa-solid fa-chalkboard-user"></i> <strong>Modalità di Insegnamento:</strong> Insegnamento basato sulla discussione con scenari reali e interazioni guidate.</li>
+                </ul>
+                <div style="margin-top: 2rem; padding: 1.5rem; background: white; border-radius: 10px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;"><i class="fa-solid fa-route"></i> Percorso di Crescita di 3 Mesi</h4>
+                    <p style="font-size: 0.9rem; color: #4b5563;">Profilo di Crescita Digitale <i class="fa-solid fa-arrow-right" style="margin:0 5px; color:#cbd5e1;"></i> Sfida Aziendale Reale <i class="fa-solid fa-arrow-right" style="margin:0 5px; color:#cbd5e1;"></i> Output di Competenze <i class="fa-solid fa-arrow-right" style="margin:0 5px; color:#cbd5e1;"></i> Kit di Diploma d'Élite</p>
+                </div>
+            </div>
+            
+            <div class="outcomes-content animate-on-scroll">
+                <h2 style="text-align: left;">Risultati Chiave <span>(Outcomes)</span></h2>
+                <p style="margin-bottom: 2rem; color: #64748b;">In 3 mesi, raggiungerai una trasformazione.</p>
+                
+                <div class="outcomes-grid">
+                    <div class="outcome-item">
+                        <div class="outcome-icon"><i class="fa-solid fa-user-shield"></i></div>
+                        <h4>Rimodellazione dell'Inglese</h4>
+                        <p style="font-size: 0.85rem; color:#64748b; margin-top: 0.5rem;">Supera la paura di parlare e diventa fluente. (Confidence)</p>
+                    </div>
+                    <div class="outcome-item">
+                        <div class="outcome-icon"><i class="fa-solid fa-person-running"></i></div>
+                        <h4>Traduzione in Azione</h4>
+                        <p style="font-size: 0.85rem; color:#64748b; margin-top: 0.5rem;">Impara a mantenere relazioni di alto valore a lungo termine. (Action)</p>
+                    </div>
+                    <div class="outcome-item">
+                        <div class="outcome-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
+                        <h4>Integrazione Fluida</h4>
+                        <p style="font-size: 0.85rem; color:#64748b; margin-top: 0.5rem;">Padroneggia la comunicazione locale a Singapore. (Integration)</p>
+                    </div>
+                    <div class="outcome-item">
+                        <div class="outcome-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+                        <h4>Senso di Appartenenza</h4>
+                        <p style="font-size: 0.85rem; color:#64748b; margin-top: 0.5rem;">Unisciti a una comunità globale per un supporto continuo. (Belonging)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scenarios -->
+    <section id="target" class="scenarios">
+        <div class="container animate-on-scroll">
+            <h2>Per Chì È Il Corso?</h2>
+            
+            <div class="scenario-tabs">
+                <button class="tab-btn active" onclick="openTab(event, 'basic')">5 Scenari di Base</button>
+                <button class="tab-btn" onclick="openTab(event, 'advanced')">5 Scenari Avanzati</button>
+            </div>
+            
+            <div id="basic" class="tab-content active">
+                <div class="scenario-list">
+                    <ul>
+                        <li><i class="fa-solid fa-check text-blue"></i> Difficoltà nell'esprimere chiaramente le opinioni durante le riunioni.</li>
+                        <li><i class="fa-solid fa-check text-blue"></i> Scrittura di e-mail non professionale che compromette l'immagine.</li>
+                        <li><i class="fa-solid fa-check text-blue"></i> Mancanza di fiducia nelle comunicazioni telefoniche.</li>
+                        <li><i class="fa-solid fa-check text-blue"></i> Non sapere come conversare naturalmente agli eventi sociali.</li>
+                        <li><i class="fa-solid fa-check text-blue"></i> Presentazioni monotone e prive di attrattiva.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="advanced" class="tab-content">
+                <div class="scenario-list">
+                    <ul>
+                        <li><i class="fa-solid fa-check" style="color:var(--secondary-color)"></i> Frequenti malintesi nelle comunicazioni interculturali.</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--secondary-color)"></i> Assenza di persuasione e forza espressiva nelle negoziazioni.</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--secondary-color)"></i> Necessità di migliorare collaborazione e interazione nel lavoro di squadra.</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--secondary-color)"></i> Poca abilità nel trasmettere il valore del brand e storytelling.</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--secondary-color)"></i> Risposte inadeguate in contesti aziendali formali.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beyond Classroom -->
+    <section class="beyond">
+        <div class="container animate-on-scroll">
+            <div style="max-width: 600px; background: rgba(255,255,255,0.85); backdrop-filter: blur(10px); padding: 3rem; border-radius: 20px;">
+                <h2 style="color: var(--primary-color); margin-bottom: 0.5rem;"><i class="fa-solid fa-leaf"></i> Oltre la Classe</h2>
+                <p style="color: #4b5563; font-size: 1.1rem;">Oltre ai corsi aziendali, organizziamo <strong>2 eventi selezionati al mese</strong>：</p>
+                
+                <div class="beyond-features">
+                    <div class="beyond-feature">
+                        <i class="fa-solid fa-user-tie bf-icon"></i>
+                        <div>
+                            <h4 style="font-size: 1.1rem; color: var(--primary-color);">Condivisione Settoriale</h4>
+                            <p style="font-size: 0.9rem; color: #64748b;">I professionisti locali offrono approfondimenti diretti.</p>
+                        </div>
+                    </div>
+                    <div class="beyond-feature">
+                        <i class="fa-solid fa-glass-cheers bf-icon"></i>
+                        <div>
+                            <h4 style="font-size: 1.1rem; color: var(--primary-color);">Networking Aziendale</h4>
+                            <p style="font-size: 0.9rem; color: #64748b;">Incontra partner d'affari in un ambiente rilassato.</p>
+                        </div>
+                    </div>
+                    <div class="beyond-feature">
+                        <i class="fa-solid fa-city bf-icon"></i>
+                        <div>
+                            <h4 style="font-size: 1.1rem; color: var(--primary-color);">Esperienza Scenari Reali</h4>
+                            <p style="font-size: 0.9rem; color: #64748b;">Entra nel vivo del business a Singapore per migliorare la comunicazione pratica.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing & CTA -->
+    <section id="pricing" class="pricing-cta">
+        <div class="container animate-on-scroll">
+            <h2>Pronto per il tuo viaggio di crescita?</h2>
+            <p>Cogli l'opportunità di distinguerti in questo ecosistema dinamico.</p>
+            
+            <div class="price-box">
+                <p style="font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">Costo del Corso</p>
+                <div class="price"><span class="currency">SGD</span> 3000</div>
+                <div class="duration">Durata: 3 Mesi (20 Sessioni)</div>
+            </div>
+            
+            <div style="margin-top: 2rem;">
+                <a href="https://wa.me/6587327804" target="_blank" class="btn btn-primary" style="font-size: 1.2rem; padding: 1.2rem 3rem;">Richiedi Info / Iscriviti Ora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fa-solid fa-earth-asia"></i> ULC PROFESSIONALS
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <p style="margin-bottom: 1rem; color: #cbd5e1;">Un investimento sulla tua crescita, un'espansione dei tuoi orizzonti</p>
+            <p>&copy; 2026 United Language Centre - Professionals Club. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

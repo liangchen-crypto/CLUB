@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html lang="zh-SG">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ULC Professionals Club | 跨国商务人士成长</title>
+    <meta name="description" content="专为跨国商务人士打造的成长型课程项目。这是一次对自己成长的投资，对自己视野的拓展。">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Language Selection Modal -->
+    <div id="entryLangModal" class="entry-modal" style="display: none;">
+        <div class="entry-modal-content">
+            <h2 style="font-size: 1.8rem; margin-bottom: 0.5rem; color: var(--primary-color); text-align: center;">Welcome / 欢迎</h2>
+            <p style="text-align: center; color: #64748b; margin-bottom: 1.5rem;">Please select your preferred language<br>请选择您的首选语言</p>
+            <div class="entry-lang-grid">
+                <a href="index.html" class="entry-lang-btn">English</a>
+                <a href="index-zh.html" class="entry-lang-btn">中文 (Chinese)</a>
+                <a href="index-ko.html" class="entry-lang-btn">한국어 (Korean)</a>
+                <a href="index-ja.html" class="entry-lang-btn">日本語 (Japanese)</a>
+                <a href="index-it.html" class="entry-lang-btn">Italiano (Italian)</a>
+                <a href="index-de.html" class="entry-lang-btn">Deutsch (German)</a>
+            </div>
+            <button id="closeEntryModal" class="btn btn-outline" style="margin-top: 1.5rem; width: 100%; padding: 0.8rem;">Continue</button>
+        </div>
+    </div>
+    <!-- Header Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-earth-asia"></i> ULC <span>PROFESSIONALS CLUB</span>
+            </a>
+            <ul class="nav-links" style="align-items: center;">
+                <li><a href="#advantages">核心优势</a></li>
+                <li><a href="#details">课程详情</a></li>
+                <li><a href="#target">适合人群</a></li>
+                <li class="lang-selector-item">
+                    <div class="lang-selector">
+                        <button class="lang-btn"><i class="fa-solid fa-globe"></i> 中文 <i class="fa-solid fa-chevron-down" style="font-size: 0.8em; margin-left: 2px;"></i></button>
+                        <div class="lang-dropdown">
+                            <a href="index.html">English</a>
+                            <a href="index-zh.html">中文 (Chinese)</a>
+                            <a href="index-ko.html">한국어 (Korean)</a>
+                            <a href="index-ja.html">日本語 (Japanese)</a>
+                            <a href="index-it.html">Italiano (Italian)</a>
+                            <a href="index-de.html">Deutsch (German)</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="https://wa.me/6587327804" target="_blank" class="btn btn-primary" style="padding: 0.5rem 1.5rem">立即报名</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>专为跨国商务人士打造的 <span class="highlight-bg">成长型</span> 课程项目</h1>
+                <p style="font-size: 1.2rem; margin-top: 1.5rem; color: #e2e8f0;">这不只是英语学习，更是一个帮助你走进真实新加坡商务与社交圈的成长机会。</p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h4>3</h4>
+                        <p>个月时长</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>20</h4>
+                        <p>次精品课程</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>100%</h4>
+                        <p>真实社交融入</p>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 3rem;">
+                    <a href="#pricing" class="btn btn-primary">了解详情及费用</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Advantages -->
+    <section id="advantages" class="advantages">
+        <div class="container">
+            <h2>课程核心优势</h2>
+            <p style="text-align: center; color: #64748b; max-width: 600px; margin: 0 auto;">独创的教学与实战结合模式，助你全方位提升跨国商务能力。</p>
+            
+            <div class="advantages-grid">
+                <!-- Card 1 -->
+                <div class="glass-card animate-on-scroll">
+                    <div class="adv-icon"><i class="fa-solid fa-comments"></i></div>
+                    <h3>沉浸式商业场域</h3>
+                    <p>在3个月、20次的多国家学员学习互动中，精准模拟真实商务与社交环境，让成长在实战中自然发生。(Immersive Practice)</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="glass-card animate-on-scroll" style="animation-delay: 0.1s;">
+                    <div class="adv-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3>结果导向型交付</h3>
+                    <p>坚持“每课必有产出”。通过可视化的成果转换 (Visible Output)，确保从理论输入到实操运用的无缝衔接。(Result-Oriented Delivery)</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="glass-card animate-on-scroll" style="animation-delay: 0.2s;">
+                    <div class="adv-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                    <h3>深度本地化解码</h3>
+                    <p>专为非母语人士定制。不仅是语言的进阶，更是对新加坡规则与社交逻辑的深度拆解，助你跨越文化隔阂。(Deep Local Integration)</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="glass-card animate-on-scroll" style="animation-delay: 0.3s;">
+                    <div class="adv-icon"><i class="fa-solid fa-network-wired"></i></div>
+                    <h3>跨文化深度链接</h3>
+                    <p>在多国背景的圈层中，建立能够共鸣、互信的高质量商业人脉网络，拓展国际化视野。(Cross-Cultural Connection)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Details & Outcomes -->
+    <section id="details" class="details-outcomes">
+        <div class="container split-container">
+            <div class="details-box animate-on-scroll">
+                <h2><span>课程详情</span></h2>
+                <ul class="details-list">
+                    <li><i class="fa-regular fa-calendar-check"></i> <strong>开课时间：</strong> 2026年4月21日 - 6月25日</li>
+                    <li><i class="fa-solid fa-clock"></i> <strong>上课频次：</strong> 每周二、周四上课 (晚上 7:00 - 9:00)</li>
+                    <li><i class="fa-solid fa-book-open-reader"></i> <strong>课程总量：</strong> 共 20 节课程</li>
+                    <li><i class="fa-solid fa-chalkboard-user"></i> <strong>教学模式：</strong> 以讨论式教学为主，结合真实场景与引导式交流</li>
+                </ul>
+                <div style="margin-top: 2rem; padding: 1.5rem; background: white; border-radius: 10px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;"><i class="fa-solid fa-route"></i> 三个月进阶路径清晰</h4>
+                    <p style="font-size: 0.9rem; color: #4b5563;">个人成长数字档案 <i class="fa-solid fa-arrow-right" style="margin:0 5px; color:#cbd5e1;"></i> 商业实战挑战赛 <i class="fa-solid fa-arrow-right" style="margin:0 5px; color:#cbd5e1;"></i> 模块化技能产出 <i class="fa-solid fa-arrow-right" style="margin:0 5px; color:#cbd5e1;"></i> 菁英结业荣誉包</p>
+                </div>
+            </div>
+            
+            <div class="outcomes-content animate-on-scroll">
+                <h2 style="text-align: left;">关键收获 <span>(Outcomes)</span></h2>
+                <p style="margin-bottom: 2rem; color: #64748b;">三个月后，你将实现蜕变</p>
+                
+                <div class="outcomes-grid">
+                    <div class="outcome-item">
+                        <div class="outcome-icon"><i class="fa-solid fa-user-shield"></i></div>
+                        <h4>英文表达重塑</h4>
+                        <p style="font-size: 0.85rem; color:#64748b; margin-top: 0.5rem;">彻底克服心理障碍，实现从恐惧开口到“流利开口”的转变。(Confidence)</p>
+                    </div>
+                    <div class="outcome-item">
+                        <div class="outcome-icon"><i class="fa-solid fa-person-running"></i></div>
+                        <h4>行动转化</h4>
+                        <p style="font-size: 0.85rem; color:#64748b; margin-top: 0.5rem;">学会不仅在现场聊得来，更能持续维系高价值关系。(Action)</p>
+                    </div>
+                    <div class="outcome-item">
+                        <div class="outcome-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
+                        <h4>顺畅融入</h4>
+                        <p style="font-size: 0.85rem; color:#64748b; margin-top: 0.5rem;">掌握狮城沟通底色，实现文化丝滑嵌入，本地游刃有余。(Integration)</p>
+                    </div>
+                    <div class="outcome-item">
+                        <div class="outcome-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+                        <h4>归属共鸣</h4>
+                        <p style="font-size: 0.85rem; color:#64748b; margin-top: 0.5rem;">加入志同道合全球社群，拥有长期的支持系统。(Belonging)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scenarios -->
+    <section id="target" class="scenarios">
+        <div class="container animate-on-scroll">
+            <h2>课程适合谁？</h2>
+            
+            <div class="scenario-tabs">
+                <button class="tab-btn active" onclick="openTab(event, 'basic')">五大基础场景 (初级)</button>
+                <button class="tab-btn" onclick="openTab(event, 'advanced')">五大进阶场景 (中级)</button>
+            </div>
+            
+            <div id="basic" class="tab-content active">
+                <div class="scenario-list">
+                    <ul>
+                        <li><i class="fa-solid fa-check text-blue"></i> 会议沟通不顺畅，难以清晰表达观点</li>
+                        <li><i class="fa-solid fa-check text-blue"></i> 邮件写作不够专业，影响职场形象</li>
+                        <li><i class="fa-solid fa-check text-blue"></i> 面对电话沟通时缺乏信心</li>
+                        <li><i class="fa-solid fa-check text-blue"></i> 在社交聚会中不知如何自然展开对话</li>
+                        <li><i class="fa-solid fa-check text-blue"></i> 演讲与汇报表现单一，缺乏吸引力</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="advanced" class="tab-content">
+                <div class="scenario-list">
+                    <ul>
+                        <li><i class="fa-solid fa-check" style="color:var(--secondary-color)"></i> 跨文化交流中容易产生沟通误差</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--secondary-color)"></i> 商务谈判中的表达力度与说服力不足</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--secondary-color)"></i> 团队合作场景下的沟通协同有待提升</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--secondary-color)"></i> 品牌叙事与价值传达能力较弱</li>
+                        <li><i class="fa-solid fa-check" style="color:var(--secondary-color)"></i> 正式商务场合中的回应不够准确得体</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beyond Classroom -->
+    <section class="beyond">
+        <div class="container animate-on-scroll">
+            <div style="max-width: 600px; background: rgba(255,255,255,0.85); backdrop-filter: blur(10px); padding: 3rem; border-radius: 20px;">
+                <h2 style="color: var(--primary-color); margin-bottom: 0.5rem;"><i class="fa-solid fa-leaf"></i> 超越课堂</h2>
+                <p style="color: #4b5563; font-size: 1.1rem;">除了商务课程，我们每月还会安排 <strong>2 场精选活动</strong>：</p>
+                
+                <div class="beyond-features">
+                    <div class="beyond-feature">
+                        <i class="fa-solid fa-user-tie bf-icon"></i>
+                        <div>
+                            <h4 style="font-size: 1.1rem; color: var(--primary-color);">行业分享会</h4>
+                            <p style="font-size: 0.9rem; color: #64748b;">本地专业人士为您带来一手的行业洞察。</p>
+                        </div>
+                    </div>
+                    <div class="beyond-feature">
+                        <i class="fa-solid fa-glass-cheers bf-icon"></i>
+                        <div>
+                            <h4 style="font-size: 1.1rem; color: var(--primary-color);">商务社交与人脉拓展</h4>
+                            <p style="font-size: 0.9rem; color: #64748b;">轻松愉悦的环境中结识更多商业伙伴。</p>
+                        </div>
+                    </div>
+                    <div class="beyond-feature">
+                        <i class="fa-solid fa-city bf-icon"></i>
+                        <div>
+                            <h4 style="font-size: 1.1rem; color: var(--primary-color);">真实场景体验</h4>
+                            <p style="font-size: 0.9rem; color: #64748b;">走进新加坡真实商业与社交场景，提升实际沟通能力。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing & CTA -->
+    <section id="pricing" class="pricing-cta">
+        <div class="container animate-on-scroll">
+            <h2>准备好开启您的成长之旅了吗？</h2>
+            <p>抓住在这个多元且国际化的商业环境中脱颖而出的机会。</p>
+            
+            <div class="price-box">
+                <p style="font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">课程费用</p>
+                <div class="price"><span class="currency">SGD</span> 3000</div>
+                <div class="duration">时长：3个月 (20次精品课)</div>
+            </div>
+            
+            <div style="margin-top: 2rem;">
+                <a href="https://wa.me/6587327804" target="_blank" class="btn btn-primary" style="font-size: 1.2rem; padding: 1.2rem 3rem;">报名咨询 / 立即加入</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fa-solid fa-earth-asia"></i> ULC PROFESSIONALS
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <p style="margin-bottom: 1rem; color: #cbd5e1;">这是一次对自己成长的投资，这是一次对自己视野的拓展</p>
+            <p>&copy; 2026 United Language Centre - Professionals Club. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
