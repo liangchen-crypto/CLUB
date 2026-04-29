@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | ULC Professionals Club</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .about-hero {
+            padding: 150px 0 80px;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            text-align: center;
+        }
+        .about-hero h1 {
+            color: var(--primary-color);
+            font-size: 2.8rem;
+            margin-bottom: 2rem;
+            max-width: 900px;
+            margin: 0 auto 2rem;
+            line-height: 1.4;
+        }
+        .about-hero .lead-text {
+            font-size: 1.3rem;
+            color: #4b5563;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+        .text-highlight {
+            color: var(--accent-blue);
+            font-weight: 600;
+        }
+        .about-section {
+            padding: 6rem 0;
+            background: white;
+        }
+        .about-section.alt-bg {
+            background: var(--bg-color);
+        }
+        .text-block {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.15rem;
+            color: #334155;
+            line-height: 1.9;
+        }
+        .text-block p {
+            margin-bottom: 1.5rem;
+        }
+        
+        .lang-matrix {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 3rem 0;
+            justify-content: center;
+        }
+        .matrix-item {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            border-bottom: 3px solid var(--accent-blue);
+            transition: var(--transition);
+        }
+        .matrix-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(11,26,74,0.1);
+            border-color: var(--secondary-color);
+        }
+        .matrix-item h4 {
+            color: var(--primary-color);
+            font-size: 1.2rem;
+        }
+        
+        .harvest-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .harvest-card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            border-left: 4px solid var(--secondary-color);
+            transition: var(--transition);
+        }
+        .harvest-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+        }
+        .harvest-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+        }
+        .harvest-card p {
+            color: #64748b;
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        .cta-final {
+            text-align: center;
+            padding: 6rem 0;
+            background: var(--primary-color);
+            color: white;
+        }
+        .cta-final h2 {
+            color: white;
+            margin-bottom: 1.5rem;
+            font-size: 2.5rem;
+        }
+        .cta-final p {
+            font-size: 1.3rem;
+            color: #cbd5e1;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            line-height: 1.8;
+        }
+        
+        .check-list {
+            list-style: none;
+            margin-left: 0;
+            margin-top: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+        
+        .check-list li {
+            padding: 1.5rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+        }
+        
+        .check-list li i {
+            font-size: 1.2rem;
+            margin-right: 12px;
+        }
+        
+        @media (max-width: 768px) {
+            .check-list {
+                grid-template-columns: 1fr;
+            }
+            .about-hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="header" class="scrolled">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-earth-asia"></i> ULC <span>PROFESSIONALS CLUB</span>
+            </a>
+            <ul class="nav-links" style="align-items: center;">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" style="color: var(--accent-blue);">About Us</a></li>
+                <li><a href="https://wa.me/6587327804" target="_blank" class="btn btn-primary" style="padding: 0.5rem 1.5rem">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="about-hero">
+        <div class="container">
+            <h1>What Do You Want to Gain in Singapore?<br>What Can You Gain? And How Should You Prepare?</h1>
+            <p class="lead-text">
+                The moment you land at Changi Airport,<br>
+                you are arriving at <span class="text-highlight">more than just a country.</span><br>
+                You are arriving at <span class="text-highlight">a platform that connects the world.</span>
+            </p>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="container text-block">
+            <p>For business professionals from non-English-speaking countries, Singapore means far more than safety, efficiency, and prosperity.</p>
+            <p>Its true value lies in this:<br>
+            <strong>Here, global capital, talent, companies, and opportunities come together.</strong><br>
+            <strong>Here, people from different cultures collaborate, trade, and grow within the same system.</strong></p>
+            
+            <div style="background: var(--bg-color); padding: 2.5rem; border-radius: 15px; margin: 3rem 0; border-left: 5px solid var(--primary-color);">
+                <p style="margin: 0; font-size: 1.3rem; font-weight: 600; color: var(--primary-color);">
+                    To truly enter this system, it takes more than money and resources. It also requires upgrading yourself through language.
+                </p>
+            </div>
+
+            <p>Even if you already have strong professional capabilities, if you cannot clearly express your value, build trust, or communicate across cultures, opportunities may still pass you by.</p>
+            <p style="text-align: center; font-weight: bold; font-size: 1.4rem; margin-top: 4rem; color: var(--primary-color);">Because language is not just a communication tool. Behind language are:</p>
+            
+            <div class="lang-matrix">
+                <div class="matrix-item"><h4>Ways of thinking</h4></div>
+                <div class="matrix-item"><h4>Business logic</h4></div>
+                <div class="matrix-item"><h4>Communication efficiency</h4></div>
+                <div class="matrix-item"><h4>Leadership influence</h4></div>
+                <div class="matrix-item"><h4>International collaboration ability</h4></div>
+            </div>
+
+            <p style="text-align: center; font-size: 1.25rem; color: var(--primary-color); margin-top: 3rem; font-weight: 500; line-height: 1.8;">
+                When you upgrade your language, you are upgrading your ability to enter the world —<br>
+                and your opportunity to let others discover your value.
+            </p>
+        </div>
+    </section>
+
+    <section class="about-section alt-bg">
+        <div class="container text-block">
+            <h2 style="text-align: left; margin-bottom: 2rem;">Why Choose ULC</h2>
+            <p>Founded by Matt and built over 14 years, ULC now launches its upgraded <strong>Professionals Club</strong>.</p>
+            <p>This is more than an English program.</p>
+            <p>It is a platform that helps international professionals learn how to:</p>
+            <ul class="check-list">
+                <li><i class="fa-solid fa-check text-highlight"></i> Express ideas clearly in meetings</li>
+                <li><i class="fa-solid fa-check text-highlight"></i> Build relationships naturally in social settings</li>
+                <li><i class="fa-solid fa-check text-highlight"></i> Increase influence in negotiations</li>
+                <li><i class="fa-solid fa-check text-highlight"></i> Demonstrate professional value in cross-cultural environments</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="container text-block">
+            <h2 style="margin-bottom: 1rem;">What Will You Gain in the<br>Professionals Club?</h2>
+            
+            <div class="harvest-grid">
+                <div class="harvest-card">
+                    <h3>Cross-cultural competitiveness</h3>
+                    <p>You will better understand how to cooperate, communicate, and close deals across cultures.</p>
+                </div>
+                <div class="harvest-card">
+                    <h3>A global growth leverage point</h3>
+                    <p>Stand in Asia, connect to the world, and become a point where resources and opportunities meet.</p>
+                </div>
+                <div class="harvest-card">
+                    <h3>A chance to rediscover yourself</h3>
+                    <p>Re-examine your communication style, thinking patterns, and personal influence.</p>
+                </div>
+                <div class="harvest-card">
+                    <h3>Greater business possibilities</h3>
+                    <p>Use language to build networks.<br>Use communication to open markets.<br>Use insight to shape the future.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-final">
+        <div class="container">
+            <p style="color: white; margin-bottom: 1rem; font-weight: 500;">Coming to Singapore is not only about adding another destination to your life experience.<br>It is about giving yourself the opportunity to upgrade into an international business professional.</p>
+            <p style="color: var(--secondary-color); font-weight: bold; font-size: 1.4rem; margin-bottom: 2.5rem;">Language is the most important starting point of that upgrade.</p>
+            <h2>And ULC Professionals Club is ready to be your accelerator.</h2>
+            <div style="margin-top: 3rem;">
+                <a href="https://wa.me/6587327804" target="_blank" class="btn btn-primary" style="font-size: 1.2rem; padding: 1.2rem 3rem;">Join Us to Start Your Upgrade Journey</a>
+            </div>
+        </div>
+    </section>
+
+    <footer style="background: #061132; color: #94a3b8; padding: 3rem 0; text-align: center;">
+        <div class="container">
+            <div style="font-size: 1.2rem; font-weight: bold; color: white; margin-bottom: 1rem;">
+                <i class="fa-solid fa-earth-asia"></i> ULC PROFESSIONALS
+            </div>
+            <p>&copy; 2026 United Language Centre - Professionals Club. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

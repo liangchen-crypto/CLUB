@@ -154,6 +154,14 @@ header.scrolled {
   color: var(--accent-blue);
 }
 
+html:not([lang="zh-SG"]) .zh-only-nav {
+  display: none !important;
+}
+
+html[lang="zh-SG"] .non-zh-nav {
+  display: none !important;
+}
+
 /* Language Selector */
 .lang-selector {
   position: relative;
